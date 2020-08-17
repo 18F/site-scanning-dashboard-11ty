@@ -1,0 +1,29 @@
+agency: General Services Administration
+site_title: "GSA Site Scan Dashboard"
+description: "Proof of concept for a simple yet customizable JS-based site scanner dashboard."
+
+# Desired scans
+scans:
+    - domains
+    - dap
+    - uswds2
+
+# This is the list of domains which we want to be displayed for the above agency
+domainlist:
+    - presidentialinnovationfellows.gov
+    - cloud.gov
+    - challenge.gov
+    - digital.gov
+    - fedramp.gov
+    - usa.gov
+    - search.gov
+    - kids.gov
+    - gobiernousa.gov
+    - login.gov
+    - 18f.gov
+    - data.gov
+    - vote.gov
+    - citizenscience.gov
+
+# ANALYTICS
+google_analytics_ua: ''

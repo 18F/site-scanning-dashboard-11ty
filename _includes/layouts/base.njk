@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    {% include 'meta.html' %}
+    
+    {#- TO-DO: build CSS f rom uwsds at build time -#}
+    <link rel="stylesheet" href="https://designsystem.digital.gov/assets/css/styles.css">
+    
+    {% if site.google_analytics_ua or site.dap_agency %}
+      {% include 'analytics.html' %}
+    {% endif %}
+  </head>
+  <body class="{{ layout.class }} {{ page.class }} {% if site.site_width %}site-{{ site.site_width }}{% endif %}">
+    <a class="usa-skipnav" href="#main-content">Skip to main content</a>
+
+    {% include 'components/header.html' %}
+
+    {% if page.layout == 'post' %}
+      {{ content | safe }}
+    {% else %}
+      <main id="main-content"{% if templateClass %} class="{{ templateClass }}"{% endif %}>
+        {{ content | safe }}
+      </main>
+    {% endif %}
+
+    {% include 'footer.html' %}
+
+    {% include 'scripts.html' %}
+    <!-- Current page: {{ page.url | url }} -->
+  </body>
+</html>
