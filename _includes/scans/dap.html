@@ -1,0 +1,9 @@
+  
+  {% if scan.data.0.0 == 'dap_detected' and scan.data.0.1 == 'false' %}
+  No
+  {% else %}
+  Dap detected{% for item in scan.data %}{% if item.0 == 'dap_parameters' %}
+  with parameters `{{ item.1 }}`</dd>
+  {% endif %}
+  {% endfor %}
+  {% endif %}

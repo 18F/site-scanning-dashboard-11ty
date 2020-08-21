@@ -1,0 +1,9 @@
+#### 404s:
+<ul>
+  {% for item in scan.data %}
+  {% if item.1 == '404' %}
+  <li>{{ item.0 }}</li>
+  {% endif %}
+  {% endfor %}
+</ul>
+

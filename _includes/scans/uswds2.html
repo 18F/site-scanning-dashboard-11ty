@@ -1,0 +1,14 @@
+{% assign unwantedfields = "domain,status_code" | split:"," %}
+
+{% if scan.data.total_score < 0 %}
+<dl>
+  {% for item in scan.data %}
+  {% if unwantedfields contains item.0 %}{% else %}
+  <dt><strong>{{ item.0 }}</strong></dt>
+  <dd>{{ item.1 }}</dd> 
+  {% endif %}
+  {% endfor %}
+</dl>
+{% else %}
+  No
+{% endif %}
