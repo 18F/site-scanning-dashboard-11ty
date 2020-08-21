@@ -4,6 +4,11 @@ const yaml = require("js-yaml");
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
+  // allow dynamic partials, so we can load scan files as needed.
+  eleventyConfig.setLiquidOptions({
+    dynamicPartials: true,
+  });
+
   // Enable YAML data files, accounting for both .yml and .yaml extensions
   eleventyConfig.addDataExtension("yml", contents => yaml.safeLoad(contents));
   eleventyConfig.addDataExtension("yaml", contents => yaml.safeLoad(contents));
