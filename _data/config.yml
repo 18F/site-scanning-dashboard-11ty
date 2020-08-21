@@ -6,10 +6,7 @@ description: "Proof of concept for a simple yet customizable JS-based site scann
 # Note: domains does not need to be included here, 
 # because any scans in domainlist will be scanned and displayed.
 scans:
-    - sitemap
     - dap
-    - uswds2
-    - 200scanner
 
 # This is the list of domains which we want to be scanned and displayed for the above agency.
 # Note: that www is routinely stripped from master list of domains in the site scanner
@@ -17,47 +14,13 @@ scans:
 # So www.domain.gov should probably be here as just domain.gov
 # When in doubt, search that list for your best match. 
 domainlist:
-    - weather.gov
-    - www.nhc.noaa.gov
-    - water.weather.gov
-    - forecast.weather.gov
-    - www.cpc.ncep.noaa.gov
-    - www.wpc.ncep.noaa.gov
-    - radar.weather.gov
-    - climate.gov
-    - www.nws.noaa.gov
-    - aviationweather.gov
-    - www.spc.ncep.noaa.gov
-    - www.aviationweather.gov
-    - www.ndbc.noaa.gov
-    - mag.ncep.noaa.gov
-    - www.goes.noaa.gov
-    - www.prh.noaa.gov
-    - ocean.weather.gov
-    - www.nohrsc.noaa.gov
-    - www.swpc.noaa.gov
-    - graphical.weather.gov
-    - hads.ncep.noaa.gov
-    - alerts.weather.gov
-    - preview.weather.gov
-    - nwschat.weather.gov
-    - www.tsunami.gov
-    - nws.noaa.gov
-    - mobile.weather.gov
-    - tgftp.nws.noaa.gov
-    - hdsc.nws.noaa.gov
-    - airquality.weather.gov
-    - ptwc.weather.gov
-    - www.emc.ncep.noaa.gov
-    - www.nco.ncep.noaa.gov
-    - training.weather.gov
-    - digital.weather.gov
-    - inws.ncep.noaa.gov
-    - hurricanes.gov
-    - nowcoast.ncep.noaa.gov
-    - www.roc.noaa.gov
-    - toolkit.climate.gov
-    - ntwc.ncep.noaa.gov
+    - disposal.gsa.gov
+    - extportal.pbs.gsa.gov
+    - GSAfinearts.pbs.gsa.gov
+    - mysmartplans.gsa.gov
+    - NCRrecycles.gsa.gov
+    - propertydisposal.gsa.gov
+    - publiccourts.gsa.gov
 
 # ANALYTICS
 google_analytics_ua: ''
