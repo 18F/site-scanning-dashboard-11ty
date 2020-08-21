@@ -1,0 +1,23 @@
+
+<ul>
+  {% for item in scan.data %}
+  {% if item.0 == 'final_url' %}
+  <li><strong>URL:</strong> {{ item.1 }}</li> 
+  {% endif %}
+
+  {% if item.0 == 'status_code' %}
+  <li><strong>Status code:</strong> {{ item.1 }}</li> 
+  {% endif %}
+  
+  {% if item.0 == 'sitemap_locations_from_robotstxt' %}
+  <li><strong>Locations from robots.txt:</strong> 
+  {% if item.1.0 %}{{ item.1|extract_values }}
+  {% else %}None{% endif %}
+  </li> 
+  {% endif %}
+  {% if item.0 == 'url_tag_count' %}
+  <li><strong>URLs counted: </strong> {{ item.1 }}</li> 
+  {% endif %}
+
+  {% endfor %}
+</ul>
