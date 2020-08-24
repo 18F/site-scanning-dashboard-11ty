@@ -2,18 +2,18 @@
   "name": "site-scanning-dashboard-11ty",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
+    "dev": "eleventy --serve",
+    "build": "eleventy",
+    "federalist": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "@11ty/eleventy": "^0.11.0",
-    "@11ty/eleventy-navigation": "^0.1.6"
-  },
   "dependencies": {
+    "@11ty/eleventy": "^0.11.0",
+    "@11ty/eleventy-navigation": "^0.1.6",
     "axios": "^0.19.2",
     "js-yaml": "^3.14.0",
     "uswds": "^2.8.1"
