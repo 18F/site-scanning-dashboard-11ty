@@ -14,7 +14,7 @@ scans:
 # So www.domain.gov should probably be here as just domain.gov
 # When in doubt, search that list for your best match. 
 domainlist:
-    - fedpay.gsa.gov/
+    - fedpay.gsa.gov
     - finance.ocfo.gsa.gov 
     - financeweb.gsa.gov
     - vcss.ocfo.gsa.gov 
