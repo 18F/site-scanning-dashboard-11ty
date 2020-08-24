@@ -109,6 +109,29 @@ domainlist:
     - labs.usa.gov
     - login.gov
     - lookforwatersense-prod.app.cloud.gov
+    - markdown-helper.18f.gov
+    - marketplace.fedramp.gov
+    - methods.18f.gov
+    - mysales.fas.gsa.gov
+    - open-forest-dev.app.cloud.gov
+    - open-source-guide.18f.gov
+    - open-source-program.18f.gov
+    - openopps.digitalgov.gov
+    - participation.usa.gov
+    - paygap.pif.gov
+    - performance-gov-research.18f.gov
+    - pfabankapi.app.cloud.gov
+    - pfabankfindui-d.app.cloud.gov
+    - pfabankfindui-q.app.cloud.gov
+    - pfabankfindui.app.cloud.gov
+    - pfabankui-q.app.cloud.gov
+    - plain-language-tutorial.18f.gov
+    - pra.digital.gov
+    - presidentialinnovationfellows.gov
+    - private-eye.18f.gov
+    - product-guide.18f.gov
+    - publications.usa.gov
+    - resources.data.gov
 
 
 # ANALYTICS
