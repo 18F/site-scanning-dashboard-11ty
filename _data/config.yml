@@ -149,7 +149,8 @@ domainlist:
     - V1.designsystem.digital.gov
     - vec.gsa.gov 
     - vehicledispatch.fas.gsa.gov
-
+    - vote.gov
+    - vsc.gsa.gov 
 
 # ANALYTICS
 google_analytics_ua: ''
