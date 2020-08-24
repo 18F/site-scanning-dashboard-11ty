@@ -157,12 +157,7 @@ domainlist:
     - corporateapps.gsa.gov
     - itjobs.open.gsa.gov
     - labs.gsa.gov
-    - tech.gsa.gov
-    - acquisition.gov
-    - arch.idmanagement.gov
-    - buyaccessible.gov
-    - cio.gov
-    - cloud.cio.gov
+
 
 # ANALYTICS
 google_analytics_ua: ''
