@@ -153,10 +153,7 @@ domainlist:
     - vsc.gsa.gov
     - workflow.digital.gov
     - wp-bsp.data.gov
-    - ask.gsa.gov
-    - corporateapps.gsa.gov
-    - itjobs.open.gsa.gov
-    - labs.gsa.gov
+
 
 
 # ANALYTICS
