@@ -1,5 +1,5 @@
 {
-  "name": "site-scanning-dashboard-11ty",
+  "name": "federalist-test-eleventy",
   "version": "1.0.0",
   "description": "",
   "scripts": {
@@ -12,10 +12,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@11ty/eleventy": "^0.11.0",
-    "@11ty/eleventy-navigation": "^0.1.6",
-    "axios": "^0.19.2",
-    "js-yaml": "^3.14.0",
-    "uswds": "^2.8.1"
+    "@11ty/eleventy": "^0.11.0"
   }
 }
