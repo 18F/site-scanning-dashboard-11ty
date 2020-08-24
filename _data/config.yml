@@ -6,7 +6,7 @@ description: "Proof of concept for a simple yet customizable JS-based site scann
 # Note: domains does not need to be included here, 
 # because any scans in domainlist will be scanned and displayed.
 scans:
-    - dap
+    - uswds2
 
 # This is the list of domains which we want to be scanned and displayed for the above agency.
 # Note: that www is routinely stripped from master list of domains in the site scanner
