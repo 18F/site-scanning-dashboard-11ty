@@ -147,6 +147,8 @@ domainlist:
     - usdigitalregistry.digitalgov.gov
     - usmcservmart.gsa.gov
     - V1.designsystem.digital.gov
+    - vec.gsa.gov 
+    - vehicledispatch.fas.gsa.gov
 
 
 # ANALYTICS
