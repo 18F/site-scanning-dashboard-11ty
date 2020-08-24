@@ -39,6 +39,78 @@ domainlist:
     - beta.SAM.gov 
     - blog.usa.gov
     - brand.18f.gov
+    - calc-dev.app.cloud.gov
+    - calc.gsa.gov 
+    - cars.fas.gsa.gov
+    - catalog.data.gov
+    - challenge.gov 
+    - chat.18f.gov
+    - climate.data.gov
+    - cloud.gov
+    - cm-jira.usa.gov
+    - cmls.gsa.gov 
+    - code.gov
+    - coe.gsa.gov
+    - college-scorecard.app.cloud.gov
+    - collegescorecard.ed.gov
+    - compliance-viewer.18f.gov
+    - components.designsystem.digital.gov
+    - computersforlearning.gov
+    - conectate.gobiernousa.gov
+    - connect.usa.gov
+    - content-guide.18f.gov
+    - cpars.gov 
+    - Cpsearch.fas.gsa.gov 
+    - crime-data-explorer.fr.cloud.gov
+    - designsystem.digital.gov
+    - developers.code.gov
+    - developers.login.gov
+    - digital-acquisition-playbook.18f.gov
+    - digitaldashboard.gov
+    - discovery.gsa.gov 
+    - dolores-app.18f.gov
+    - drivethru.gsa.gov
+    - ebuy.gsa.gov
+    - emerging.digital.gov
+    - eng-hiring.18f.gov
+    - engineering.18f.gov
+    - eoffer.gsa.gov 
+    - epa-notice.usa.gov
+    - faq.coronavirus.gov
+    - federalist-docs.18f.gov
+    - federalist-report-template.18f.gov
+    - federation.data.gov
+    - fedramp.gov
+    - fedsim.gsa.gov
+    - fedspecs.gsa.gov 
+    - feedback.usa.gov
+    - fellows-in-innovation.pif.gov
+    - ffms.fas.gsa.gov
+    - findtreatment.gov
+    - fleet.fas.gsa.gov
+    - fleeteur.fas.gsa.gov
+    - fmvrs.fas.gsa.gov
+    - fpds.gov 
+    - fugacious.18f.gov
+    - go.usa.gov
+    - govconnect.18f.gov
+    - gsaadvantage.gov 
+    - gsaelibrary.gsa.gov
+    - gsaglobalsupply.gsa.gov 
+    - gsaxcess.gov
+    - gsaxcesspractice.fas.gsa.gov
+    - hackerone.com/tts
+    - hallways.cap.gsa.gov
+    - handbook.tts.gsa.gov
+    - identity-dev-docs.18f.gov
+    - innovation-toolkit-prototype.18f.gov
+    - interact.gsa.gov
+    - join.tts.gsa.gov
+    - labs.data.gov
+    - labs.usa.gov
+    - login.gov
+    - lookforwatersense-prod.app.cloud.gov
+
 
 # ANALYTICS
 google_analytics_ua: ''
