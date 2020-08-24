@@ -137,7 +137,12 @@ domainlist:
     - sdg.data.gov
     - search.gov
     - secure.login.gov
-
+    - site-scanning.app.cloud.gov
+    - smartpay.gsa.gov
+    - strategy.data.gov
+    - tailored.fedramp.gov
+    - tophealth.pif.gov
+    - touchpoints.digital.gov
 
 
 # ANALYTICS
