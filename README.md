@@ -22,6 +22,7 @@ you build or serve the site, so if you are deploying this through CI/CD, you wil
   * Run `node --version` in your Terminal/Command Line to determine if Node is installed and is version 8 or higher.
   * If you see a Node or NPM error, they're not installed on your machine. You can install Node from the command line, with installers such as Homebrew, or with a download. However you want to do it, once you've [installed Node](https://nodejs.org/en/download/), try again and the following steps to run this code should work.
 * Go into the `site-scanning-dashboard-11ty` directory.
+* Run the command `npm install` to download and install the node module dependencies for this project.
 * Run the command `npx @11ty/eleventy --serve` or `eleventy --serve` if you have 11ty installed globally.
 
 Once it completes the build and serve steps, you can look at 
