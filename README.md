@@ -1,3 +1,5 @@
+**_Note - this project is no longer active.  To learn more about the Site Scanning program, go to https://digital.gov/site-scanning or email site-scanning@gsa.gov._**
+
 # site-scanning-dashboard-11ty
 Proof of concept for a simple yet customizable JS-based site scanner dashboard.
 
